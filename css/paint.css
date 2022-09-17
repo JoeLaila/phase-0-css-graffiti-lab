@@ -1,3 +1,4 @@
+/* write your override styles here */
 body {
   background: black url(../images/sketch.jpg) no-repeat center;
   background-size: cover;
@@ -29,11 +30,16 @@ body {
   z-index: 7;
   display: block;
 }
-
+.tag-1{
+  display: none;
+}
 #wall #tag-2 {
   background: url(../images/tag-2.png) no-repeat;
   z-index: 6;
   display: block;
+}
+#wall #tag-2 {
+  display: none;
 }
 
 div#wall #tag-3.slick {
@@ -41,11 +47,17 @@ div#wall #tag-3.slick {
   z-index: 5;
   display: block;
 }
+div#wall #tag-3.slick {
+  display: none;
+}
 
 #wall #tag-4 {
   background: url(../images/tag-4.png) no-repeat;
   z-index: 4;
   display: block;
+}
+#wall #tag-4 {
+  display: none;
 }
 
 div#wall .parent #tag-5.slick {
@@ -53,14 +65,25 @@ div#wall .parent #tag-5.slick {
   z-index: 3;
   display: block;
 }
+div#wall .parent #tag-5.slick {
+  display: none;
+}
 
 div#wall div.parent div:last-child div#tag-6 {
   background: url(../images/tag-6.png) no-repeat;
   z-index: 2;
   display: block;
 }
+div#wall div.parent div:last-child div#tag-6{
+  display: none;
+}
 
 body div#wall div.parent div > #tag-7.slick {
+  background: url(../images/tag-7.png) no-repeat;
+  z-index: 1;
+  display: block;
+}
+body div#wall div.parent div > #tag-7 .slick {
   background: url(../images/tag-7.png) no-repeat;
   z-index: 1;
   display: block;
